@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile": "npx hardhat compile",
+    "deploy:mumbai:GratitudeNFT": "npx hardhat run --network mumbai scripts/GratitudeNFT.deploy.js",
+    "verify:mumbai:GratitudeNFT": "npx hardhat verify --contract contracts/GratitudeNFT.sol:GratitudeNFT --network mumbai 0xa11A21F90AcF541f520CE35170Bd2e15bf887466",
     "test:permit": "npx hardhat test test/erc20-permit.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
