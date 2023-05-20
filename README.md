@@ -19,7 +19,7 @@ This service has dependencies on other services.
 - IVFM Contract: https://github.com/Invisible-Farm/glitch-contract
 - IVFM Verifier: https://github.com/Invisible-Farm/glitch-verifier-server
 - PostgreSQL: https://www.postgresql.org/
-- PolygonId: https://0xpolygonid.github.io/tutorials/
+- Polygon ID: https://0xpolygonid.github.io/tutorials/
 
 Building
 --------
