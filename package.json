@@ -11,6 +11,8 @@
     "verify:mumbai:IncenseNFT": "npx hardhat verify --contract contracts/IncenseNFT.sol:IncenseNFT --network mumbai 0x28a40545fa8Af247f13B2c3Ef1A25CA95f1b25ee",
     "deploy:mumbai:SoulBoundToken": "npx hardhat run --network mumbai scripts/SoulBoundToken.deploy.js",
     "verify:mumbai:SoulBoundToken": "npx hardhat verify --contract contracts/SoulBoundToken.sol:SoulBoundToken --network mumbai 0x34acf1B28Eb3ef32850f408Ab3a6b714de0fc1B7",
+    "deploy:mumbai:SigVerifier": "npx hardhat run --network mumbai scripts/SigVerifier.deploy.js",
+    "verify:mumbai:SigVerifier": "npx hardhat verify --contract contracts/SigVerifier.sol:SigVerifier --network mumbai 0x1567710F9b6F8A82AFE37EB1D567CC6197d7BF5f",
     "test:permit": "npx hardhat test test/erc20-permit.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
